@@ -11,5 +11,6 @@ COPY ROOT.war /usr/local/tomcat/webapps/ROOT.war
 EXPOSE 8080
 
 # Lệnh chạy server
-CMD ["catalina.sh", "run"]S
+CMD ["catalina.sh", "run"]
+
 
